@@ -15,4 +15,9 @@ public class CalculationTest {
     public void doSum(){
         Assertions.assertEquals(4,this.calculation.doSum(2,2));
     }
+
+    @Test
+    public void doSumFail(){
+        Assertions.assertEquals(5,this.calculation.doSum(2,2));
+    }
 }
